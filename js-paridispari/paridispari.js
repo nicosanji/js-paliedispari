@@ -40,6 +40,8 @@ function pariDispari(numeroPariDispari) {
 const pcNumero = numeroRandomTot(1, 5);
 // Console: mostra il numero generato dal pc
 console.log(`Il numero scelto dal pc è: ${pcNumero}`);
+// Alert: mostra il numero generato dal pc
+alert(`Il numero scelto dal pc è: ${pcNumero}`);
 
 // Creo la variabile che somma il numero dell'utente con quello generato dal pc
 const sommaNumeri = utenteNumero + pcNumero;
